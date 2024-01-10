@@ -1,0 +1,28 @@
+.parent {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  list-style: none;
+}
+
+.first,
+.second,
+.last {
+  background-color: #eeeeee;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+ol li,
+.last ul li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.last ul li {
+  list-style-position: inside;
+  margin-left: -40px;
+}

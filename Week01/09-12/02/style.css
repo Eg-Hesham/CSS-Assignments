@@ -1,0 +1,31 @@
+div {
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  padding: 20px;
+  position: relative;
+}
+
+.shape-1::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 40px;
+  background-color: #e91e63;
+  left: 5px;
+  top: 10px;
+}
+
+.shape-2 {
+  visibility: hidden;
+}
+
+.shape-3::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 40px;
+  background-color: #009688;
+  left: 5px;
+  top: 10px;
+}

@@ -1,0 +1,40 @@
+.parent {
+  width: 1000px;
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+.parent div {
+  background-color: #dddddd;
+  padding: 15px 0;
+  margin: 15px 0;
+  float: left;
+  font-weight: bold;
+}
+
+.parent .full {
+  width: calc((100% - 30px) / 1);
+  margin-left: 15px;
+}
+
+.parent .three {
+  width: calc((100% - 60px) / 3);
+  margin-left: 15px;
+}
+
+.parent .two {
+  width: calc((100% - 45px) / 2);
+  margin-left: 15px;
+}
+
+.parent .four {
+  width: calc((100% - 75px) / 4);
+  margin-left: 15px;
+}
+
+.clear {
+  clear: both;
+}
+

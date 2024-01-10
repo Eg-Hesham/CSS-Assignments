@@ -1,0 +1,8 @@
+.class {
+ transform: matrix(3, 0.2679, 0, 3, 20, 100);
+ /*(scaleX,skewY,skewX,scaleY,translateX,translateY)*/
+ -webkit-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+ -moz-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+ -ms-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+ -o-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+}

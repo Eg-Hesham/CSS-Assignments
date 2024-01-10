@@ -1,0 +1,44 @@
+span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #e6e6e1;
+  border-radius: 50%;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border: 5px solid #000000;
+  border-left-color: transparent;
+  animation-name: spiner;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+@keyframes spiner {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+ }
+ to {
+  transform: rotate(1turn);
+  -webkit-transform: rotate(1turn);
+  -moz-transform: rotate(1turn);
+  -ms-transform: rotate(1turn);
+  -o-transform: rotate(1turn);
+}
+}
+

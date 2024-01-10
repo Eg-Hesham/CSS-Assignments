@@ -1,0 +1,19 @@
+/* Any Element With Class Title */
+.title {
+  color:red;
+}
+
+/* An element with id title */
+#nav {
+  color:red;
+}
+
+/* Any div */
+div {
+  color:red;
+}
+
+/* Any h2 */
+h2 {
+  color:red;
+}
